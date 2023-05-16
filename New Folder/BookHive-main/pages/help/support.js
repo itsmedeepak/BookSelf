@@ -22,7 +22,7 @@ function SupportPage(props) {
 				<div className='text-lg font-medium italic leading-relaxed'>
 					Consider supporting our project at{' '}
 					<div
-						onClick={() => openLink('https://github.com/Bikash-nath/BookHive')}
+						onClick={() => openLink('/')}
 						className='cursor-pointer inline text-indigo-500'>
 						github.com
 					</div>
@@ -31,10 +31,10 @@ function SupportPage(props) {
 					Provide some feedback at{' '}
 					<div
 						onClick={() =>
-							openLink('https://github.com/Bikash-nath/BookHive/discussions')
+							openLink('/')
 						}
 						className='cursor-pointer inline text-indigo-500'>
-						BookHive
+						BookSelf
 					</div>
 				</div>
 			</div>

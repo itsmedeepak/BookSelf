@@ -4,8 +4,8 @@ function Footer() {
 	const content = {
 		Resources: [{ Blog: '' }, { Events: '' }, { About: '' }],
 		Team: [
-			{ Support: '/help/support' },
-			{ Developers: 'https://github.com/Bikash-nath/BookHive' },
+			{ Support: '/' },
+			{ Developers: '/' },
 			{ 'Contact Us': '' },
 		],
 		Company: [{ Terms: '' }, { Privacy: '' }, { FAQ: '/help/faq' }],

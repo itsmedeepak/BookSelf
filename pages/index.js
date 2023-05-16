@@ -52,10 +52,10 @@ function HomePage(props) {
 	return (
 		<Fragment>
 			<Head>
-				<title>Bookhive</title>
+				<title>BookSelf</title>
 				<meta
 					name='description'
-					content='Bookhive is an evolving reading library with thousands of free audiobooks, eBooks and magazines.
+					content='BookSelf is an evolving reading library with thousands of free audiobooks, eBooks and magazines.
 					Now a comprehensive, seamless and personalized reading experience is at your fingertips, making reading more affordable and accessible than ever.'
 				/>
 			</Head>

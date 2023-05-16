@@ -60,7 +60,7 @@ function UpdatePassword(props) {
 		<Fragment>
 			<Head>
 				<title>Update Password</title>
-				<meta name='description' content='BookHive user password update page' />
+				<meta name='description' content='BookSelf user password update page' />
 			</Head>
 			<div className='page-gradient'>
 				<LoginContainer>

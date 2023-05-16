@@ -28,8 +28,8 @@ function HelpPage(props) {
 					<section id='faq-accordion'>
 						<div className='container mx-auto px-6 mb-auto'>
 							<div className='max-w-2xl m-8 mx-auto overflow-hidden'>
-								<Accordion title='What is BookHive?' tabIndex='1'>
-									Bookhive is an evolving reading library with thousands of free audiobooks, eBooks
+								<Accordion title='What is BookSelf?' tabIndex='1'>
+								BookSelf is an evolving reading library with thousands of free audiobooks, eBooks
 									and magazines.
 									<br />
 									Now a comprehensive, seamless and personalized reading experience is at your
@@ -40,16 +40,10 @@ function HelpPage(props) {
 								</Accordion>
 								<Accordion title='How can I find latest audiobooks?' tabIndex='2'>
 									Visit{' '}
-									<div
-										onClick={() =>
-											openLink('https://bookhive.vercel.app/books/category/audiobooks')
-										}
-										className='cursor-pointer text-indigo-500'>
-										bookhive.vercel.app/audiobooks
-									</div>{' '}
+									
 									to find latest audiobooks.
 								</Accordion>
-								<Accordion title='How can I contact BookHive team?' tabIndex='2'>
+								<Accordion title='How can I contact BookSelf team?' tabIndex='2'>
 									You can visit us directly at
 									<div onClick={() => openLink('')} className='cursor-pointer text-indigo-500'>
 										LinkedIn.

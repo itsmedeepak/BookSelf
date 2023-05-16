@@ -21,21 +21,11 @@ function SupportPage(props) {
 				</div>
 				<div className='text-lg font-medium italic leading-relaxed'>
 					Consider supporting our project at{' '}
-					<div
-						onClick={() => openLink('https://github.com/Bikash-nath/BookHive')}
-						className='cursor-pointer inline text-indigo-500'>
-						github.com
-					</div>
+					
 				</div>
 				<div className='text-lg font-medium italic leading-relaxed'>
 					Provide some feedback at{' '}
-					<div
-						onClick={() =>
-							openLink('https://github.com/Bikash-nath/BookHive/discussions')
-						}
-						className='cursor-pointer inline text-indigo-500'>
-						BookHive
-					</div>
+					
 				</div>
 			</div>
 		</Fragment>

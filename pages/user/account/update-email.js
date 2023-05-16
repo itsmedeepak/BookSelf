@@ -58,7 +58,7 @@ function UpdateEmail(props) {
 		<Fragment>
 			<Head>
 				<title>Update Email</title>
-				<meta name='description' content='BookHive user email update page' />
+				<meta name='description' content='BookSelf user email update page' />
 			</Head>
 			<div className='page-gradient'>
 				<LoginContainer>

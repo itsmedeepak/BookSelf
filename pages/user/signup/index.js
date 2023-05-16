@@ -62,7 +62,7 @@ function SignUpPage() {
 		<Fragment>
 			<Head>
 				<title>Sign Up</title>
-				<meta name='description' content='BookHive SignUp page' />
+				<meta name='description' content='BookSelf SignUp page' />
 			</Head>
 			<LoginContainer>
 				<h2 className='text-2xl xl:text-3xl mb-6 xl:mb-8 font-bold'>Sign Up</h2>

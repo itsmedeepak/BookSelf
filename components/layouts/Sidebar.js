@@ -51,7 +51,7 @@ function Sidebar() {
 						<p className='text-base'>Home</p>
 					</div>
 				</Link>
-				<Link href='/discover'>
+				<Link href='/'>
 					<div className={routeClassHandler('/discover') + 'my-4'}>
 						<DiscoverIcon dimensions='h-7 w-7' />
 						<p className='text-base'>Discover</p>
@@ -60,7 +60,7 @@ function Sidebar() {
 				<hr className='border-t-[0.1px] border-gray-800 w-full' />
 				<div className='flex flex-col'>
 					<div className='flex w-full'>
-						<Link href='/user/library'>
+					<Link href='/'>
 							<div className={routeClassHandler('/library') + ' pr-2'}>
 								<LibraryIcon dimensions='h-7 w-7' />
 								<p className='text-base'>Library</p>
@@ -82,19 +82,19 @@ function Sidebar() {
 					</div>
 					{activeUser && libraryToggle ? (
 						<div className='ml-2'>
-							<Link href='/user/library/collections'>
+							<Link href='/'>
 								<div className={routeClassHandler('/collections')}>
 									<CollectionIcon dimensions='h-7 w-7' />
 									<p className='text-base'>Collections</p>
 								</div>
 							</Link>
-							<Link href='/user/library/favourites'>
+							<Link href='/'>
 								<div className={routeClassHandler('/favourites')}>
 									<HeartIcon dimensions='h-7 w-7' />
 									<p className='text-base'>Favourites</p>
 								</div>
 							</Link>
-							<Link href='/user/library/read-history'>
+							<Link href='/'>
 								<div className={routeClassHandler('/read-history')}>
 									<HistoryIcon dimensions='h-7 w-7' />
 									<p className='text-base'>Read history</p>
@@ -106,21 +106,21 @@ function Sidebar() {
 					)}
 				</div>
 
-				<Link href='/user/uploads'>
+				<Link href='/'>
 					<div className={routeClassHandler('/user/uploads') + 'my-4'}>
 						<PlusCircleIcon dimensions='h-7 w-7' />
 						<p className='text-base'>Uploads</p>
 					</div>
 				</Link>
 
-				<Link href='/user/account/profile'>
+				<Link href='/'>
 					<div className={routeClassHandler('/account') + 'my-4'}>
 						<AccountIcon dimensions='h-7 w-7' />
 						<p className='text-base'>Account</p>
 					</div>
 				</Link>
 
-				<Link href='/user/account/settings'>
+				<Link href='/'>
 					<div className={routeClassHandler('/account/settings') + 'my-4'}>
 						<SettingsIcon dimensions='h-7 w-7' />
 						<p className='text-base'>Settings</p>
@@ -129,7 +129,7 @@ function Sidebar() {
 
 				<hr className='border-t-[0.1px] border-gray-800 w-full' />
 				<div className='absolute bottom-16 w-full'>
-					<Link href='/help/faq'>
+					<Link href='/'>
 						<div className={routeClassHandler('/faq')}>
 							<HelpIcon dimensions='h-7 w-7' />
 							<p className='text-base'>Help</p>
@@ -137,7 +137,7 @@ function Sidebar() {
 					</Link>
 				</div>
 				<div className='absolute bottom-4 w-full'>
-					<Link href='/help/support'>
+					<Link href='/'>
 						<div className={routeClassHandler('/support')}>
 							<FeedbackIcon dimensions='h-7 w-7' />
 							<p className='text-base'>Feedback</p>

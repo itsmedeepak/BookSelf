@@ -93,7 +93,7 @@ function Header(props) {
 									<SearchIcon dimensions='h-7 w-7' />
 								</div>
 
-								<div className='flex items-center space-x-3 cursor-pointer rounded-full pr-2'>
+								{/* <div className='flex items-center space-x-3 cursor-pointer rounded-full pr-2'>
 									{activeUser ? (
 										<>
 											<div className='flex items-center cursor-pointer p-2 space-x-4 focus:bg-slate-800'>
@@ -153,7 +153,7 @@ function Header(props) {
 											<LoginButton />
 										</div>
 									)}
-								</div>
+								</div> */}
 							</div>
 						</div>
 					)}

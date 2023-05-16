@@ -7,7 +7,7 @@ function PageHeader(props) {
 				<div className='flex items-center justify-between gap-3 md:gap-4 md:mx-2 xl:mx-3 my-1 sm:my-2 xl:my-4 text-white'>
 					{props.backBtn && (
 						<div className='block xl:hidden'>
-							<NavigateBackButton />
+							{/* <NavigateBackButton /> */}
 						</div>
 					)}
 					<div className='items-center text-2xl xl:text-3xl font-semibold w-full mx-2 leading-loose'>
