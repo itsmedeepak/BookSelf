@@ -1,0 +1,21 @@
+.ui-snackbar-toggle-transition {
+	transition: transform 0.3s ease;
+}
+
+.ui-snackbar-toggle-transition .ui-snackbar-text,
+.ui-snackbar-toggle-transition .ui-snackbar-action {
+	opacity: 1;
+	transition: opacity 0.3s ease;
+}
+
+.ui-snackbar-toggle-enter,
+.ui-snackbar-toggle-leave {
+	transform: translateY(60px);
+}
+
+.ui-snackbar-toggle-enter .ui-snackbar-text,
+.ui-snackbar-toggle-leave .ui-snackbar-text,
+.ui-snackbar-toggle-enter .ui-snackbar-action,
+.ui-snackbar-toggle-leave .ui-snackbar-action {
+	opacity: 0;
+}
